@@ -4,7 +4,7 @@ block_cipher = None
 
 a = Analysis(
     ['main.py'],
-    pathex=['C:\\MyPrograms\\Python\\Work\\TagGames'],
+    pathex=['C:\\MyPrograms\\Python\\Work\\TagGame'],
     binaries=[],
     datas=[],
     hiddenimports=[],
@@ -30,7 +30,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='main',
+    name='TagGame',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
